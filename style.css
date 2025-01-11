@@ -1,0 +1,305 @@
+body {
+  font-family: 'Lora', serif;
+  color: #333; 
+  line-height: 1.6; 
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  font-family: 'Lora', serif;
+  font-size: 1rem; /* Adjust font size */
+}
+
+/* Navbar background and text color */
+h1, h2, h3, .navbar-brand, .navbar-nav .nav-link {
+  font-family: 'Lora', serif;
+}
+.navbar {
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+.navbar {
+  background-color: #3a393b !important; /* Dark green background */
+  color: #fff !important; /* White text */
+}
+
+/* Navbar links */
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff !important; 
+  font-weight: 500; /* Make text bold */
+  text-transform: uppercase; /* Optional: Make text uppercase */
+}
+
+/* Navbar link hover effect */
+.navbar-nav .nav-link:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #ffffff !important; /* Bright yellow on hover */
+}
+
+/* Dropdown menu background and text color */
+.dropdown-menu {
+  background-color: #f8f9fa !important; /* Light gray background */
+  border: 1px solid #ccc; /* Border for dropdown */
+}
+
+.marginAdd {
+  display: none;
+}
+
+.marginAddRight {
+  float: right;
+}
+
+.mirador-canvas-nav {
+  display: none !important;
+}
+
+.supraAdd {
+  vertical-align: super;
+  font-size: smaller;
+  }
+  .overwritten {
+    font-style: italic;
+    }
+
+
+.dropdown-item {
+  color: #333 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #e9ecef !important;
+  color: #928d8d !important; 
+}
+
+
+.welcome-text {
+  font-size: 1.0rem;
+  font-weight: normal;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.starter-template {
+padding: 40px 15px;
+text-align: center;
+}
+.image-section img, .second-image-section img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.page-list a {
+  color: #9a1919;
+  text-decoration: none;
+}
+
+.page-list a:hover {
+  text-decoration: underline;
+}
+/* Footer Styling */
+footer {
+  background-color: #727d72; /* Dark green background */
+  color: #fff; /* White text */
+  text-align: center; /* Center-align content */
+  padding: 20px 0; /* Add space inside the footer */
+  margin-top: 30px; /* Add space above the footer */
+  position: relative; /* Ensures correct layout for the logo */
+}
+
+/* University Logo Styling */
+footer img {
+  margin-top: 15px; /* Space between text and logo */
+  max-width: 100px; /* Adjust logo size */
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  text-indent: 10px;
+}
+
+.row {
+  width: 100%;
+  margin-left: 0;
+}
+
+.col {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.marginAdd {
+  display: none;
+}
+
+.mirador-canvas-nav {
+  display: none !important;
+}
+______________________
+
+
+.crossed-out {
+  text-decoration-color: rgb(5, 5, 5);
+  font-size: 0.8em;
+  vertical-align: super;
+  text-decoration: line-through;
+} 
+
+del {
+
+  text-decoration-color: rgb(9, 9, 9);                
+  font-size: 0.8em;         
+  vertical-align: super; 
+  text-decoration: line-through; 
+}
+/* Apply beige background color to the entire webpage */
+body {
+  background-color: white;
+  font-family: Lora, serif; 
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 20px;
+  color: #0f5329;
+}
+
+h1, h2, h3, .title, .head {
+  font-size: 1.2rem;
+  background-color: #333; /* Dark green */
+  color: rgb(255, 255, 255); /* White text on dark background */
+  font-weight: bold; /* Bold text */
+  padding: 10px 20px; /* Padding for spacing */
+  text-align: center; /* Centered title text */
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  padding: 20px;
+}
+-----------------
+/* Crossed-out text styling */
+[type="crossedOut"] {
+  text-decoration: line-through;
+  color: red;
+  font-style: italic;
+}
+
+/* Supralinear (above the text) additions */
+add[place="supralinear"] {
+  position: relative;
+  top: -0.5em;
+  font-size: 0.8em;
+  font-style: italic;
+  color: black;
+}
+
+/* Inline corrections */
+add[place="inline"] {
+  font-style: italic;
+  color: black;
+}
+
+.supraAdd {
+  vertical-align: super;
+  font-size: smaller;
+  }
+
+.circled {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 0.2em;
+  display: inline-block;
+  text-align: center;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1em;
+}
+
+.overwritten {
+  font-style: italic;
+  }
+/* Line breaks for clarity */
+p {
+  line-height: 1.6;
+}
+body {
+  background-color: rgb(230, 230, 228); /* Choose your preferred color */
+}
+/* Change link colors to red */
+a {
+  color: darkred; /* Makes the link text red */
+  text-decoration: none; /* Optional: Removes underline */
+}
+
+/* Optional: Hover effect for links */
+a:hover {
+  color: darkred; /* Changes to a darker shade of red on hover */
+  text-decoration: underline; /* Adds underline on hover for better interactivity */
+}
+/* Top Image Section */
+.top-image-container {
+  text-align: center; /* Centers the image horizontally */
+  margin-top: 10px; /* Adds spacing above the image */
+}
+
+.top-image {
+  width: 100%; /* Makes the image responsive */
+  max-width: 500px; /* Optional: Limits the image width */
+  height: auto; /* Maintains the image's aspect ratio */
+  border-radius: 20px; /* Optional: Adds rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
+}
+
+.footer-image {
+  margin-top: -300px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Negative value moves the image upwards */
+}
+
+.next-page-btn {
+  color: #fff;
+  background-color: #7e847f; /* Green background */
+  border-color: #fdfdfd;
+  padding: 5px 9px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.next-page-btn:hover {
+  background-color: #687a68; /* Darker green on hover */
+  border-color: #050505;
+  color: #fff;
+}
+
+.previous-page-btn{
+  color: #fff;
+  background-color: #7e847f;
+  border-color: #fdfdfd;
+  padding: 5px 9px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.previous-page-btn:hover {
+  background-color: #687a68; /* Darker green on hover */
+  border-color: #050505;
+  color: #fff;
+}
+
